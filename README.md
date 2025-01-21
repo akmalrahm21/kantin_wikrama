@@ -5,7 +5,7 @@ Website Kantin HEBAT adalah platform digital yang dirancang untuk mengelola oper
 
 1.	Dashboard Admin
 - Menampilkan data lengkap dari makanan yang ingin di jual.
-- Pantau stok secara real-time.
+- Pantau stok barang yang masih tersisa.
 
  ![Screenshot 2025-01-21 110012](https://github.com/user-attachments/assets/2d8f1a97-f526-495c-aac9-53f5279440fb)
  
