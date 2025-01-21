@@ -1,64 +1,54 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<h2 align="center">Dokumentasi Website Kantin HEBAT</h2>
+Website Kantin HEBAT adalah platform digital yang dirancang untuk mengelola operasional kantin secara modern, efisien, dan ramah pengguna. Website ini memberikan kemudahan bagi siswa, guru, dan staf sekolah untuk memesan makanan dan minuman, memantau transaksi, dan mengelola stok kantin secara real-time. Dengan fitur yang lengkap, Kantin HEBAT mendukung pengalaman kantin yang lebih nyaman dan terorganisir.
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<br><h3>**Fitur Utama**</h3></br>
 
-## About Laravel
+1.	Dashboard Admin
+- Menampilkan data lengkap dari makanan yang ingin di jual.
+- Pantau stok secara real-time.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+ ![Screenshot 2025-01-21 110012](https://github.com/user-attachments/assets/2d8f1a97-f526-495c-aac9-53f5279440fb)
+ 
+2.	Daftar transaksi
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- Menampilkan daftar transaksi secara lengkap dari nama user yang membeli,barang yang dibeli,jumlah barang yang dibeli,total harga, hingga tanggal dan waktu transaksi.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+ ![Screenshot 2025-01-21 110018](https://github.com/user-attachments/assets/be53e41a-322e-4b57-89b7-e1041269c260)
+ 
+3.	Menambahkan barang
+- Dapat menambahkan makanan yang ingin ditambahkan ke dalam kantin secara lengkap dan rinci.
 
-## Learning Laravel
+ ![Screenshot 2025-01-21 110035](https://github.com/user-attachments/assets/cd1e64b3-3997-4f83-9f6a-e60e431de291)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<br><h3>**Alur Penggunaan**</h3></br>
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+1.	Halaman Dashboard: Pengguna akan menemui halaman dashboard terlebih dahulu sebelum login. Dihalaman dashboard mengenalkan secara ringkas apa itu kantin HEBAT dan keunggulan yang dimilik kantin HEBAT.
 
-### Premium Partners
+![Screenshot 2025-01-21 105809](https://github.com/user-attachments/assets/67bd43b9-6a2f-4957-a983-c424f451f70e)
+![Screenshot 2025-01-21 105828](https://github.com/user-attachments/assets/1feb4acd-edae-4e73-96ed-a2d1a0b8f222)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+2.	Login: Pengguna masuk menggunakan akun yang terdaftar.
 
-## Contributing
+ ![Screenshot 2025-01-21 105837](https://github.com/user-attachments/assets/4cc49d77-b619-4546-ae5b-69ff6fd1dfe2)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+3.	Melihat Menu: Pengguna dapat melihat daftar menu yang tersedia, lengkap dengan harga dan jumlah stok yang masih tersedia.
 
-## Code of Conduct
+ ![Screenshot 2025-01-21 105845](https://github.com/user-attachments/assets/b9b8f83a-5b4f-472d-b573-7dd77139c820)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+4.	Memesan Makanan: Pilih makanan dan lakukan checkout, masukkan jumlah makanan yang ingin dibeli.
 
-## Security Vulnerabilities
+![Screenshot 2025-01-21 105917](https://github.com/user-attachments/assets/bc2a2fa8-62cd-4b51-9e90-9c2118c80ecd)
+ 
+**Keunggulan Website Kantin HEBAT**
+- Efisiensi Tinggi: Mengurangi antrian di kantin.
+- Transparansi: Riwayat transaksi yang mudah diakses.
+- Ramah Lingkungan: Mengurangi penggunaan kertas untuk catatan pesanan.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+**Kontak dan Dukungan**
+- Email: akmalrahm768@gmail.com
+- Telepon: +62 85863148617
+________________________________________
+Dengan website Kantin HEBAT, pengalaman kantin menjadi lebih praktis, modern, dan menyenangkan untuk semua pengguna.
 
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
