@@ -1,4 +1,4 @@
-<h2 align="center">Dokumentasi Website Kantin HEBAT</h2>
+<h2 align="center">Website kantin HEBAT</h2>
 Website Kantin HEBAT adalah platform digital yang dirancang untuk mengelola operasional kantin secara modern, efisien, dan ramah pengguna. Website ini memberikan kemudahan bagi siswa, guru, dan staf sekolah untuk memesan makanan dan minuman, memantau transaksi, dan mengelola stok kantin secara real-time. Dengan fitur yang lengkap, Kantin HEBAT mendukung pengalaman kantin yang lebih nyaman dan terorganisir.
 
 <br><h3>**Fitur Utama**</h3></br>
